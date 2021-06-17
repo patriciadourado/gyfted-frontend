@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/gyfted-frontend/static/js/main.a3c0d5f0.chunk.js",
+    "main.js.map": "/gyfted-frontend/static/js/main.a3c0d5f0.chunk.js.map",
+    "runtime-main.js": "/gyfted-frontend/static/js/runtime-main.07fe23ed.js",
+    "runtime-main.js.map": "/gyfted-frontend/static/js/runtime-main.07fe23ed.js.map",
+    "static/js/2.4353b899.chunk.js": "/gyfted-frontend/static/js/2.4353b899.chunk.js",
+    "static/js/2.4353b899.chunk.js.map": "/gyfted-frontend/static/js/2.4353b899.chunk.js.map",
+    "index.html": "/gyfted-frontend/index.html",
+    "precache-manifest.1b15d9dff40265ac313e86fb12655fc3.js": "/gyfted-frontend/precache-manifest.1b15d9dff40265ac313e86fb12655fc3.js",
+    "service-worker.js": "/gyfted-frontend/service-worker.js",
+    "static/js/2.4353b899.chunk.js.LICENSE.txt": "/gyfted-frontend/static/js/2.4353b899.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07fe23ed.js",
+    "static/js/2.4353b899.chunk.js",
+    "static/js/main.a3c0d5f0.chunk.js"
+  ]
+}
