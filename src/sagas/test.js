@@ -4,9 +4,11 @@ import { call, put, takeLatest } from 'redux-saga/effects';
 import { GET_TEST } from '../actions/constants';
 import { getTestSuccess, getTestFailure } from '../actions/index';
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 function* getTestSaga(action) {
   try {
-    const resp = yield call(() => axios.get(`/api/tests/${action.payload}`));
+    const resp = yield call(() => axios.get(API_URL+`/api/tests/${action.payload}`));
 
     yield put(getTestSuccess(resp.data));
   } catch (error) {
